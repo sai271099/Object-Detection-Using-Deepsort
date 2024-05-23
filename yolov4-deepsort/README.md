@@ -1,6 +1,4 @@
 # yolov4-deepsort
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zmeSTP3J5zu2d5fHgsQC06DyYEYJFXq1?usp=sharing)
 
 Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. YOLOv4 is a state of the art algorithm that uses deep convolutional neural networks to perform object detections. We can take the output of YOLOv4 feed these object detections into Deep SORT (Simple Online and Realtime Tracking with a Deep Association Metric) in order to create a highly accurate object tracker.
 
@@ -135,9 +133,3 @@ save_model.py:
   --info: print detailed info about tracked objects
     (default: False)
 ```
-
-### References  
-
-   Huge shoutout goes to hunglc007 and nwojke for creating the backbones of this repository:
-  * [tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite)
-  * [Deep SORT Repository](https://github.com/nwojke/deep_sort)
